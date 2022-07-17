@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.app {
+  background-color: aquamarine;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+.user-avatar {
+  width: 36px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+.filter-menu-container {
+  border: none !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+.filter-menu {
+  width: 15%;
+}
+.filter-submenu {
+  position: absolute;
+  z-index: 100;
+  width: 15%;
+  transform: translateX(-8%);
+}
+.filter-item {
+  border-bottom: solid 1px whitesmoke;
+  cursor: pointer;
+  padding: 6px;
+  background-color: rgb(250 250 250);
+  width: 100%;
+  height: 100%;
+}
+.register-panel {
+  width: 100%;
+  padding: 0 40px 20px 40px;
+}
+.form-register {
+  width: 100%;
+}
+.form-outline {
+  margin-bottom: 10px;
+}
+.catLink:hover {
+  color: #fea020 !important;
+}
+.toggle_btn {
+  background-color: #fea020 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  padding-top: 6px !important;
+  padding-right: 6px !important;
+  padding-left: 6px !important;
+  font-size: 14px;
+  cursor: pointer;
+}
+.panel-heading {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2) !important;
 }
